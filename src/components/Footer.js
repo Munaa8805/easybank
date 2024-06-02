@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Button from "./Button";
 import Logo from "@/assets/logo-white.svg";
 import FacIcon from "@/assets/icon-facebook.svg";
 import TwitIcon from "@/assets/icon-twitter.svg";
@@ -122,8 +123,8 @@ const Footer = () => {
             })}
           </div>
         </div>
-        <div>
-          <button>Request Invite</button>
+        <div className="flex flex-col justify-center gap-4 items-center">
+          <Button>Request Invite</Button>
           <p className="text-grayishBlue font-thin text-sm">
             &#64; Easybank. All Rights Reserved
           </p>

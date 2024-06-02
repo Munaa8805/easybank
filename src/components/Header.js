@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import Logo from "./Logo";
 import Navbar from "./Navbar";
+import Button from "./Button";
 
 const Header = () => {
   const [active, setActive] = useState(1);
@@ -46,9 +47,8 @@ const Header = () => {
           ))}
         </ul>
       </nav>
-      <button className="bg-limeGreen text-white text-xl rounded-full py-3 px-6">
-        Request Invite{" "}
-      </button>
+
+      <Button>Request Invite</Button>
     </div>
   );
 };
