@@ -7,7 +7,9 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <main className="bg-white font-light">
-      <Header />
+      <header className="z-50 sticky bg-white ">
+        <Header />
+      </header>
       <MainInfo />
       <WhyCon />
       <Articles />
