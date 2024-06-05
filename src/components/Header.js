@@ -6,6 +6,7 @@ import Logo from "./Logo";
 import Navbar from "./Navbar";
 import Button from "./Button";
 import closeImage from "../assets/icon-close.svg";
+import hamburgerMenu from "../assets/icon-hamburger.svg";
 
 const Header = () => {
   const [active, setActive] = useState(1);
@@ -88,7 +89,12 @@ const Header = () => {
             setIsMobileMenuOpen(!isMobileMenuOpen);
           }}
         >
-          <Image src={closeImage} alt="close" width={20} height={20} />
+          <Image
+            src={isMobileMenuOpen ? closeImage : hamburgerMenu}
+            alt="close"
+            width={20}
+            height={20}
+          />
         </button>
       </div>
 
