@@ -63,8 +63,8 @@ const Header = () => {
         </ul>
       </nav>
       {isMobileMenuOpen && (
-        <div className=" bg-red-500 flex flex-col items-center justify-center pointer w-full mt-5 md:hidden">
-          <ul className="bg-gray-200 w-[90%] mx-auto fixed top-20 left-[5%] rounded flex flex-col  items-center p-10">
+        <div className="bg-red-500 flex flex-col items-center justify-center pointer w-full mt-5 md:hidden">
+          <ul className="bg-gray-200 w-[90%] mx-auto fixed top-20 lef-[5%] right-[5%] rounded flex flex-col  items-center p-10">
             {headerData.map((item) => (
               <li
                 onClick={() => {
