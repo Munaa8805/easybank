@@ -7,7 +7,7 @@ const Article = ({ item }) => {
       <a href="#">
         <Image
           src={item.image}
-          alt=""
+          alt="article image"
           width={500}
           height={500}
           className="h-[300px] w-full object-cover rounded-t-lg"
