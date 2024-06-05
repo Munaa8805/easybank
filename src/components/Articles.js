@@ -41,7 +41,7 @@ const Articles = () => {
     },
   ];
   return (
-    <section className="bg-white py-10">
+    <section className="px-2 bg-white py-10 md:px-0">
       <div className="container mx-auto">
         <h2 className="font-light text-2xl text-center text-darkBlue my-10 md:text-start md:text-4xl">
           Latest Articles
